@@ -4,13 +4,13 @@ spring:
   data:
     mongdb:
       port: 27017
-      host: localhost
+      host: ilussencio.duckdns.org
       database: newsletter
     rabbitmq:
-      host: localhost
+      host: ilussencio.duckdns.org
       port: 5672
       username: guest
-      password: guest
+      password: P@$$word
 server:
   port: ${PORT:0}
 eureka:
