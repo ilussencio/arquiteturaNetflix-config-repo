@@ -10,7 +10,7 @@ spring:
       host: 192.168.100.27
       port: 5672
       username: guest
-      password: P@$$word
+      password: password
 server:
   port: ${PORT:0}
 eureka:
