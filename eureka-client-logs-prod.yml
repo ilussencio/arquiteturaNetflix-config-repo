@@ -2,7 +2,7 @@ spring:
   application:
     name: eureka-client-logs
   data:
-    mongdb:
+    mongodb:
       port: 27017
       host: 192.168.100.27
       database: newsletter
