@@ -6,11 +6,11 @@ spring:
       port: 27017
       host: 192.168.100.27
       database: newsletter
-    rabbitmq:
-      host: 192.168.100.27
-      port: 5672
-      username: guest
-      password: password
+  rabbitmq:
+    host: 192.168.100.27
+    port: 5672
+    username: guest
+    password: password
 server:
   port: ${PORT:0}
 eureka:
